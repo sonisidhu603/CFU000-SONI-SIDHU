@@ -11,6 +11,7 @@ img{
   max-width:100%;
 }
 /* header */
+
 header
 {background-color: white;
 padding:50px;
@@ -27,6 +28,7 @@ padding:50px;
   font-size: 20px;}
 /* foorter*/
 
+
 /* section */  
 section {
     border-width: 1px;
@@ -36,8 +38,13 @@ section {
     padding: 20px;
 }
 
-    .intro {
+  .intro {
    background-color:goldenrod;    }
+
+   @media screen and (min-width: 800px){
+
+   .intro {
+     background-color: pink;}
     .content {
   background-color:RGB(139, 0, 0)
     }
