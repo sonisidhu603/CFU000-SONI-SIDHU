@@ -3,7 +3,7 @@
 /*  defults */
 
 body {
-  background-image:url("../images/snow-mountain.jpg");
+  background-image:url("../images/flower.jpg");
 
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,38 +13,38 @@ img{
 /* header */
 
 header
-{background-color: white;
+{background-color:silver;
 padding:50px;
 }
 .header-text {
-    color: palegreen;
-    font-size: 50px;
-    text-align: center;
+    color: rgb(145, 26, 61);
+    font-size: 70px;
+    text-align: end;
     font-family: 'Tangerine', cursive;
     font-weight: bold; 
     
 }
-.header-sub-text {color: tomato;
-  font-size: 20px;}
+.header-sub-text {color:rgb(132, 127, 180);
+  font-size: 40px;}
 /* foorter*/
 
 
 /* section */  
 section {
-    border-width: 1px;
-    border-color: grey;
-    border-style: solid;
-    margin-bottom: 50px; 
+    border-width: 3px;
+    border-color: greenyellow;
+    border-style:solid;
+    margin-bottom: 80px; 
     padding: 20px;
 }
 
   .intro {
-   background-color:goldenrod;    }
+   background-color:slateblue;    }
 
    @media screen and (min-width: 800px){
 
    .intro {
-     background-color: pink;}
+     background-color:rgb(175, 95, 135)}
     .content {
   background-color:RGB(139, 0, 0)
     }
